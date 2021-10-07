@@ -17,9 +17,11 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.testuser.monkeyChunkyApp",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.testuser.monkeyChunkyApp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"

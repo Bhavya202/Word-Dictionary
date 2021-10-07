@@ -8,7 +8,7 @@ import {
   Image
 } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import PhonicSoundButton from './components/PhonicSoundButton';
+import PhonicSoundButton from './PhonicSoundButton';
 import db from './localDb';
 
 export default class App extends React.Component {
@@ -24,7 +24,7 @@ export default class App extends React.Component {
   render() {
     return (
       <SafeAreaProvider style={styles.container}>
-        <Text style={styles.appText}>Munky Chunky App</Text>
+        <Text style={styles.appText}>Word Dictionary</Text>
         <Image style={styles.imageIcon} source={require('./assets/icon.png')} />
         <TextInput
           onChangeText={(text) => {
